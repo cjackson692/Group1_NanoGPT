@@ -22,3 +22,10 @@
 The following link accesses the complete saved versions of each iteration of the model (too large to zip and save to github): https://drive.google.com/drive/folders/1TMR02psLbr8Ic2hmhVnRcpljq9AzqC_Y?usp=sharing
 
 The following link accesses the logging on wandb.ai: https://wandb.ai/cjackson692-university-of-north-texas/nanoGPT_testing_gp1?nw=nwusercjackson692
+
+Plot showing the validation loss of the best 10 runs:
+[top 10 validation loss](/best10--valloss.png)
+
+
+Plot showing the validation loss of the worst 10 runs:
+[bottom 10 validation loss](/worst10--valloss.png)
