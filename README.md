@@ -5,8 +5,6 @@
 ├── train_all_configs.sh # Shell script containing 128 model configs
 ├── worst10valloss.png
 ├── best10valloss.png
-├── worstmodel.pt
-├── bestmodel.pt
 ├── worstmodel_sample.txt
 ├── bestmodel_sample.txt
 └── nanoGPT/ # Minimal Reproduction of nanoGPT, with only necessary files to train and model the shakespeare-char
@@ -38,6 +36,7 @@ The best model used the following parameters:
     *max_iters=2000
     *dropout=0.1
 ```
+Find the saved best model here: https://drive.google.com/file/d/1C6xy_xv9gB1m7JSAgkAW4kS7zKsok7bR/view?usp=drive_link
 Plot showing the validation loss of the best 10 runs:
 ![top 10 validation loss](best10valloss.png)
 ```
@@ -50,6 +49,6 @@ The worst model used the following parameters:
     *max_iters=1000
     *dropout=0.2
 ```    
-
+Find the saved worst model here: https://drive.google.com/file/d/1wzojgQFokc_qKbqLYflp-WsfkgynWunx/view?usp=drive_link
 Plot showing the validation loss of the worst 10 runs:
 ![bottom 10 validation loss](worst10valloss.png)
