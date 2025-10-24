@@ -3,6 +3,8 @@
 ├── all_train_outputs.txt # Contains the collected output from all the training commands
 ├── config_generation.py # takes the parameter grid in and generates a shell script to run each necessary instance of the model
 ├── train_all_configs.sh # Shell script containing 128 model configs
+├── worst10valloss.png
+├── best10valloss.png
 └── nanoGPT/ # Minimal Reproduction of nanoGPT, with only necessary files to train and model the shakespeare-char
     ├── train.py
     ├── sample.py
