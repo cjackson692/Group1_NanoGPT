@@ -39,6 +39,16 @@ The best model used the following parameters:
     *dropout=0.1
 ```
 Find the saved best model here: https://drive.google.com/file/d/1C6xy_xv9gB1m7JSAgkAW4kS7zKsok7bR/view?usp=drive_link
+
+GPU mem use for best model: 3.6e+8 (bytes)
+
+Best Model number of parameters: 3.16M
+
+Best model wall time: 45.75494 sec
+
+Best model overfit check:
+![](overfit_TrainvsVal_best.png)
+
 Plot showing the validation loss of the best 10 runs:
 ![Top 10 validation loss](best10valloss.png)
 ```
@@ -52,13 +62,15 @@ The worst model used the following parameters:
     *dropout=0.2
 ```    
 Find the saved worst model here: https://drive.google.com/file/d/1wzojgQFokc_qKbqLYflp-WsfkgynWunx/view?usp=drive_link
-Plot showing the validation loss of the worst 10 runs:
-![Bottom 10 validation loss](worst10valloss.png)
 
-Plots to check for degree of overfit:
+GPU mem use for worst model: 2e+8 (bytes)
 
-Worst model:
+Worst model number of parameters: 0.80M
+
+Worst model wall time: 15.23464 sec
+
+Worst model overfit check:
 ![](overfit_TrainvsVal_worst.png)
 
-Best Model:
-![](overfit_TrainvsVal_best.png)
+Plot showing the validation loss of the worst 10 runs:
+![Bottom 10 validation loss](worst10valloss.png)
