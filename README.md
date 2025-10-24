@@ -25,9 +25,27 @@ The following link accesses the complete saved versions of each iteration of the
 
 The following link accesses the logging on wandb.ai: https://wandb.ai/cjackson692-university-of-north-texas/nanoGPT_testing_gp1?nw=nwusercjackson692
 
+The best model used the following parameters:
+    *block_size=128 
+    *n_layer=4
+    *n_head=4 
+    *n_embd=256 
+    *batch_size=16
+    *max_iters=2000
+    *dropout=0.1
+
 Plot showing the validation loss of the best 10 runs:
 ![top 10 validation loss](best10valloss.png)
 
+The worst model used the following parameters:
+    *block_size=64
+    *n_layer=4
+    *n_head=4 
+    *n_embd=128 
+    *batch_size=8
+    *max_iters=1000
+    *dropout=0.2
+    
 
 Plot showing the validation loss of the worst 10 runs:
 ![bottom 10 validation loss](worst10valloss.png)
