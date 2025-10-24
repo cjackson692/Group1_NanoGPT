@@ -28,6 +28,9 @@
 The following link accesses the complete saved versions of each iteration of the model (too large to zip and save to github): https://drive.google.com/drive/folders/1TMR02psLbr8Ic2hmhVnRcpljq9AzqC_Y?usp=sharing
 
 The following link accesses the logging on wandb.ai: https://wandb.ai/cjackson692-university-of-north-texas/nanoGPT_testing_gp1?nw=nwusercjackson692
+
+All plots generated from wandb.ai log
+
 ```
 The best model used the following parameters:
     *block_size=128 
@@ -74,3 +77,8 @@ Worst model overfit check:
 
 Plot showing the validation loss of the worst 10 runs:
 ![Bottom 10 validation loss](worst10valloss.png)
+
+
+
+Best Models cluster vs Worst Models cluster (validation loss):
+![](Best10-vs-Worst10.png)
