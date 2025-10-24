@@ -7,6 +7,8 @@
 ├── best10valloss.png
 ├── worstmodel_sample.txt
 ├── bestmodel_sample.txt
+├── overfit_TrainvsVal_worst.png
+├── overfit_TrainvsVal_best.png
 └── nanoGPT/ # Minimal Reproduction of nanoGPT, with only necessary files to train and model the shakespeare-char
     ├── train.py
     ├── sample.py
@@ -38,7 +40,7 @@ The best model used the following parameters:
 ```
 Find the saved best model here: https://drive.google.com/file/d/1C6xy_xv9gB1m7JSAgkAW4kS7zKsok7bR/view?usp=drive_link
 Plot showing the validation loss of the best 10 runs:
-![top 10 validation loss](best10valloss.png)
+![Top 10 validation loss](best10valloss.png)
 ```
 The worst model used the following parameters:
     *block_size=64
@@ -51,4 +53,12 @@ The worst model used the following parameters:
 ```    
 Find the saved worst model here: https://drive.google.com/file/d/1wzojgQFokc_qKbqLYflp-WsfkgynWunx/view?usp=drive_link
 Plot showing the validation loss of the worst 10 runs:
-![bottom 10 validation loss](worst10valloss.png)
+![Bottom 10 validation loss](worst10valloss.png)
+
+Plots to check for degree of overfit:
+
+Worst model:
+![](overfit_TrainvsVal_worst.png)
+
+Best Model:
+![](overfit_TrainvsVal_best.png)
