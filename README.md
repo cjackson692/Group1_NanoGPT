@@ -5,6 +5,10 @@
 ├── train_all_configs.sh # Shell script containing 128 model configs
 ├── worst10valloss.png
 ├── best10valloss.png
+├── worstmodel.pt
+├── bestmodel.pt
+├── worstmodel_sample.txt
+├── bestmodel_sample.txt
 └── nanoGPT/ # Minimal Reproduction of nanoGPT, with only necessary files to train and model the shakespeare-char
     ├── train.py
     ├── sample.py
