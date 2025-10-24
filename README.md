@@ -26,7 +26,7 @@ The following link accesses the complete saved versions of each iteration of the
 The following link accesses the logging on wandb.ai: https://wandb.ai/cjackson692-university-of-north-texas/nanoGPT_testing_gp1?nw=nwusercjackson692
 
 The best model used the following parameters:
-    *block_size=128 
+    -block_size=128 
     *n_layer=4
     *n_head=4 
     *n_embd=256 
